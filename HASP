@@ -1,0 +1,60 @@
+HASP/
+├── public/
+│   ├── models/
+│   │   ├── brain.glb
+│   │   ├── heart.glb
+│   │   ├── lungs.glb
+│   │   ├── production-line.glb
+│   │   └── training-facility.glb
+│   ├── favicon.ico
+│   ├── apple-touch-icon.png
+│   ├── icon-192x192.png
+│   ├── icon-512x512.png
+│   ├── og-image.jpg
+│   ├── manifest.json
+│   └── sw.js
+├── src/
+│   ├── components/
+│   │   ├── ui/
+│   │   │   ├── button.tsx
+│   │   │   ├── card.tsx
+│   │   │   ├── input.tsx
+│   │   │   ├── label.tsx
+│   │   │   ├── select.tsx
+│   │   │   ├── tabs.tsx
+│   │   │   └── chart.tsx
+│   │   ├── Dashboard.tsx
+│   │   ├── OrganModel.tsx
+│   │   ├── LiveDataVisualizer.tsx
+│   │   ├── SimulationControls.tsx
+│   │   ├── DataIntegration.tsx
+│   │   ├── Collaboration.tsx
+│   │   ├── Settings.tsx
+│   │   ├── BitbucketIntegration.tsx
+│   │   ├── TrainingCentre.tsx
+│   │   ├── ProductionLine.tsx
+│   │   ├── HealthcareSection.tsx
+│   │   ├── InsuranceSection.tsx
+│   │   ├── ProjectVisualization.tsx
+│   │   ├── PerformanceAnalytics.tsx
+│   │   └── Logo.tsx
+│   ├── pages/
+│   │   ├── api/
+│   │   │   ├── auth.ts
+│   │   │   └── bitbucket/
+│   │   │       └── clone.ts
+│   │   ├── _app.tsx
+│   │   ├── index.tsx
+│   │   └── og-image.tsx
+│   ├── styles/
+│   │   └── globals.css
+│   └── utils/
+│       ├── api.ts
+│       └── cad-export.ts
+├── .env.local
+├── .gitignore
+├── netlify.toml
+├── next.config.js
+├── package.json
+├── tsconfig.json
+└── README.md
